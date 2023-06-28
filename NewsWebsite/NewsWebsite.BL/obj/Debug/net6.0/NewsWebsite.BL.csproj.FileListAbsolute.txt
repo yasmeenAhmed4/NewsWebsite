@@ -1,0 +1,15 @@
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\bin\Debug\net6.0\NewsWebsite.BL.deps.json
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\bin\Debug\net6.0\NewsWebsite.BL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\bin\Debug\net6.0\NewsWebsite.BL.pdb
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\bin\Debug\net6.0\NewsWebsite.DAL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\bin\Debug\net6.0\NewsWebsite.DAL.pdb
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.AssemblyInfo.cs
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.csproj.CopyComplete
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\refint\NewsWebsite.BL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\NewsWebsite.BL.pdb
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.BL\obj\Debug\net6.0\ref\NewsWebsite.BL.dll

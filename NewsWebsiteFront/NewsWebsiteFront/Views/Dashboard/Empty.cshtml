@@ -1,0 +1,14 @@
+﻿
+
+@if (ViewData["Authors"] == null)
+{
+    <a style="pointer-events: none;opacity: 0.5;" class="btn btn-primary" href="@Url.Action("Create","Dashboard")">CreateNews</a>
+
+}
+else{
+<a class="btn btn-primary" href="@Url.Action("Create","Dashboard")">CreateNews</a>
+}
+<a class="btn btn-primary" href="@Url.Action("GetAuthors","Dashboard")">Author</a>
+
+
+<h1>No Data</h1>

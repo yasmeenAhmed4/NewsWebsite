@@ -1,0 +1,53 @@
+﻿@model IEnumerable<NewsDTO>
+
+
+<a class="btn btn-primary" href="@Url.Action("Create","Dashboard")">CreateNews</a>
+
+<a class="btn btn-primary" href="@Url.Action("GetAuthors","Dashboard")">Author</a>
+
+
+<div class="card-body p-0">
+    <table class="table">
+        <thead>
+            <tr>
+                <th style="width: 10px">@Html.DisplayNameFor(model => model.Id)</th>
+                <th style="width: 10px">Image</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>@Html.DisplayNameFor(model => model.AuthorId)</th>
+                <th>Actions</th>
+                <th style="width: 40px"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (NewsDTO P in Model)
+                {
+                    <tr>
+                        <td>@P.Id</td>
+                        <td><img style="max-width:100%;max-height:100%" src="@P.image" /></td>
+                        <td>@P.Title</td>
+                        <td>@P.newsDescription</td>
+                        <td>@P.AuthorId</td>
+                        <td>
+                            <div class="d-inline-flex">
+                                <a href="/Dashboard/Edit/@P.Id" class="mr-2"><button type="button" class="btn btn-block btn-primary">Edit</button></a>
+                                @*<a href="/Dashboard/Delete/@P.Id"><button type="button" class="btn btn-block btn-danger">Delete</button></a>*@
+                                <a type="button" class="btn btn-block btn-danger" href="@Url.Action("Delete", "Dashboard",
+                                new { id = P.Id })" onclick="return confirm('Are you sure you want to delete this item?')">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="text-center">
+                    <td colspan="3">No News found</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

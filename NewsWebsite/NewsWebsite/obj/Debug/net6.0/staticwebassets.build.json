@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "0Ydo4uM5JKiqPPy/ejmXl3201kXeAL0JWAqMYgdw5YY=",
+  "Source": "NewsWebsite",
+  "BasePath": "_content/NewsWebsite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NewsWebsite\\wwwroot",
+      "Source": "NewsWebsite",
+      "ContentRoot": "C:\\Users\\pc\\source\\repos\\NewsWebsite\\NewsWebsite\\wwwroot\\",
+      "BasePath": "_content/NewsWebsite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

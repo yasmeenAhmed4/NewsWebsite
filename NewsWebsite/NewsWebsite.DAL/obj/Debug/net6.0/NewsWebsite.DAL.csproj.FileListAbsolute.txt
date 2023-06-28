@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\bin\Debug\net6.0\NewsWebsite.DAL.deps.json
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\bin\Debug\net6.0\NewsWebsite.DAL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\bin\Debug\net6.0\NewsWebsite.DAL.pdb
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.AssemblyInfo.cs
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\refint\NewsWebsite.DAL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.pdb
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\ref\NewsWebsite.DAL.dll
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\bin\Debug\net6.0\NewsWebsite.DAL.runtimeconfig.json
+C:\Users\pc\source\repos\NewsWebsite\NewsWebsite.DAL\obj\Debug\net6.0\NewsWebsite.DAL.genruntimeconfig.cache

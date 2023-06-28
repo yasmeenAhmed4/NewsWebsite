@@ -1,0 +1,58 @@
+﻿@model NewsWebsiteFront.Models.NewsDTO
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .des{
+        width: 500px;
+        word-wrap: break-word;
+    }
+</style>
+
+
+
+<div style="display:grid; grid-template-columns:repeat(auto-fill , minmax(300px , 1fr));margin-top:50px;">
+<div>
+    <img style="width:300px" src="@Model.image" />
+</div>
+
+<div>
+
+        <h3>@Model.Title</h3>
+        <br />
+        <p class="des"><span class="fw-bold">Description: </span>@Model.newsDescription</p>
+    @if (@Model.publicationDate >= DateTime.Now)
+    {
+            <span class="fw-bold">PublicationDate: </span>
+        <span>@Model.publicationDate</span>
+       
+        <br />
+            <br />
+    }
+    else
+    {
+            <span class="fw-bold">PublicationDate: </span>
+        <span>@Model.publicationDate</span>
+       
+        <br />
+            <br />
+    }
+        <span class="fw-bold">CreationDate: </span>
+       <span>@Model.creationDate</span>
+
+       <br>
+        <br />
+    @foreach (Authors c in ViewBag.Authors)
+    {
+        if (c.Id == Model.AuthorId)
+        {
+                <span class="fw-bold">Author: </span>
+           <span>@c.Name</span>
+
+        }
+    }
+   
+</div>
+</div>
